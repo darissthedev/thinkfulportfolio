@@ -57,7 +57,65 @@ footer div{
   }
 
   /* round image >> would like a circle */
-  .rounded-image {
-      border-radius: 400px;
-    
+  img {
+      border-radius: 10px;
+  }
+
+
+/* LINKEDIN PSUEDO CODE*/
+
+/* unvisited link */
+a.linkedin:link {
+    color:#1E90FF;
+  }
+/* visited link */
+a.linkedin:visited {
+    color:#00BFFF;
+  }
+/* mouse over link */
+a.linkedin:hover {
+    color:darkblue;
+  }
+/* selected link */
+a.linkedin:active {
+    color:#E0FFFF;
+  }
+
+
+/* GITHUB PSEUDO CODE*/
+
+/* unvisited link */
+  a.github:link {
+    color:pink;
+  }
+/* visited link */
+a.github:visited {
+    color:RED;
+  }
+/* mouse over link */
+a.github:hover {
+    color:BLACK;
+  }
+/* selected link */
+a.github:active {
+    color:#84bf90;
+  }
+
+/* DESIGn WORK PSEUDO CODE*/
+
+/* unvisited link */
+a.design:link {
+    color:pink;
+  }
+/* visited link */
+a.design:visited {
+    color:RED;
+  }
+/* mouse over link */
+a.design:hover {
+    color:BLACK;
+  }
+/* selected link */
+a.design:active {
+    color:#84bf90;
   }
